@@ -10,7 +10,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import confusion_matrix, accuracy_score
 
 #reading data from file
-data = pd.read_csv("parameters.csv")
+data = pd.read_csv("parameters.csv")   #or Leaf.csv
 
 #Classification parameters
 X = data[['aspect','ecen','foam','narrow','pa','pd','plb','rec']]
